@@ -1,9 +1,9 @@
 
 //  Author: PHNO - Tecnólogo | Pós-Graduado
 //  Data Release: 04/04/2024
-//  Versao Codigo: 1.0.1v
+//  Versão Código: 1.0.1v
 //  Replit: @PHNO, @PHREPLIT
-//  Email: phreplit@gmail.com
+//  E-mail: phreplit@gmail.com
 
 // Algoritmo: Metragem e Calculo para Telhado Residencial, com menu e compilacao em console.
 
@@ -37,15 +37,14 @@ printf("\n4 - Calcular Qtd. de telhas italianas por M. Quad.");
 printf("\n5 - Calcular Qtd. de telhas portuguesas por M. Quad.");
 printf("\n6 - Calcular Qtd. de telhas romanas por M. Quad.");
 printf("\n7 - Sair\n");
-
 printf("\n[8] Info\n");
-
 printf("\n[9] Sobre\n");
 
 printf("\nDigite sua escolha: ");
 scanf("%d", &op);
 
-while ((c = getchar()) != '\n' && c != EOF) {} // limpar o buffer do teclado.   
+while ((c = getchar()) != '\n' && c != EOF) {
+} // limpar o buffer do teclado.   
 return op; 
 }
 
@@ -102,22 +101,17 @@ return 0;
 } 
 
 void op_telhado() { 
-    
 int v1;
 int v2;
 int resultado;
-
 printf("\n");
 printf("\nDigite o comprimento do telhado: ");
 scanf("%d", &v1, stdin);
 printf("\n");
 printf("\nDigite a largura do telhado: ");
 scanf("%d", &v2, stdin);
-
 resultado = v1 * v2;
-
 printf("\nOs metros quadrados equivalem a: %d metros quadrados.\n", resultado);
-
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
 // printf("\n"); // pula linha
@@ -130,20 +124,15 @@ return;
 }
 
 void op_telha2() { 
-    
 int v1; // metros quadrados
 int v2 = 12; // qtd telha por m. quad.
 int resultado; 
-
 printf("\n");
 printf("\nDigite quantos metros quadrados tem o telhado: ");
 scanf("%d", &v1, stdin);
 printf("\n");
-
 resultado = (v1 * v2);
-  
 printf("\nA quantidade de telhas americanas será de %d telha(s).\n", resultado);
-  
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
 // printf("\n"); // pula linha
@@ -156,20 +145,15 @@ return;
 }
 
 void op_telha3() {
-
 int v1; // metros quadrados
 int v2 = 16; // qtd telha por m. quad.
 int resultado; 
-
 printf("\n");
 printf("\nDigite quantos metros quadrados tem o telhado: ");
 scanf("%d", &v1, stdin);
 printf("\n");
-
 resultado = (v1 * v2);
-  
 printf("\nA quantidade de telhas coloniais será de %d telha(s).\n", resultado);
-  
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
 // printf("\n"); // pula linha
@@ -182,20 +166,15 @@ return;
 }
 
 void op_telha4() {
-
 int v1; // metros quadrados
 int v2 = 14; // qtd telha por m. quad.
 int resultado; 
-
 printf("\n");
 printf("\nDigite quantos metros quadrados tem o telhado: ");
 scanf("%d", &v1, stdin);
 printf("\n");
-
 resultado = (v1 * v2);
-  
 printf("\nA quantidade de telhas italianas será de %d telha(s).\n", resultado);
-  
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
 // printf("\n"); // pula linha
@@ -208,20 +187,15 @@ return;
 }
 
 void op_telha5() {
-
 int v1; // metros quadrados
 int v2 = 17; // qtd telha por m. quad.
 int resultado; 
-
 printf("\n");
 printf("\nDigite quantos metros quadrados tem o telhado: ");
 scanf("%d", &v1, stdin);
 printf("\n");
-
 resultado = (v1 * v2);
-  
 printf("\nA quantidade de telhas portuguesas será de %d telha(s).\n", resultado);
-  
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
 // printf("\n"); // pula linha
@@ -234,20 +208,15 @@ return;
 }
 
 void op_telha6() {
-
 int v1; // metros quadrados
 int v2 = 16; // qtd telha por m. quad.
 int resultado; 
-
 printf("\n");
 printf("\nDigite quantos metros quadrados tem o telhado: ");
 scanf("%d", &v1, stdin);
 printf("\n");
-
 resultado = (v1 * v2);
-  
 printf("\nA quantidade de telhas romanas será de %d telha(s).\n", resultado);
-  
 // system("pause"); // pausa tela windows
 // system("Cls"); // limpa tela windows
 // printf("\n"); // pula linha
@@ -277,7 +246,6 @@ getchar();
 scanf("c\n");
 system("clear");      // linux
 system("tput reset"); // linux
-
 return;
 }
 
@@ -289,13 +257,13 @@ int menu_developer(){
   printf("\n Data Release: 04/04/2024 ");
   printf("\n Versao Codigo: 1.0.1v");
   printf("\n Replit: @PHNO, @PHREPLIT");
-  printf("\n Email: phreplit@gmail.com \n");
+  printf("\n E-mail: phreplit@gmail.com \n");
   printf("\n Teclar enter para retornar ao menu...\n ");
   getchar();
   scanf("c\n");
   system("clear");      // linux limpar tela
   system("tput reset"); // linux limpar texto
-    return 0;
+  return 0;
 }
 
 
