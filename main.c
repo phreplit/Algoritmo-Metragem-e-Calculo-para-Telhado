@@ -19,7 +19,7 @@ void op_telha4();
 void op_telha5();
 void op_telha6();
 void info();
-int menu_developer();
+int menu_desenvolvedor();
 
 int menu() { // Funcao Menu  
 int op, c;
@@ -83,7 +83,7 @@ case 8:
 info(); // funcao
 break;
 case 9:
-menu_developer(); // funcao
+menu_desenvolvedor(); // funcao
 break; 
 default: 
 printf("\n");
