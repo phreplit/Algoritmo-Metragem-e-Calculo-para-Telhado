@@ -249,7 +249,7 @@ system("tput reset"); // linux
 return;
 }
 
-int menu_developer(){
+int menu_desenvolvedor(){
   system("clear");      // linux limpar tela
   system("tput reset"); // linux limpar texto
   printf("\n Algoritmo: Metragem e Calculo para Telhado \n");
