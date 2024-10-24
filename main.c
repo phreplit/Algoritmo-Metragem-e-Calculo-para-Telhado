@@ -239,7 +239,7 @@ printf(" e sabendo que calcular um metro quadrado de um telhado sera C x L entao
 printf("\nPara calcular a Telha Colonial: 1 MQ = 16 telhas.\n");
 printf("\nPara calcular a Telha Italiana: 1 MQ = 14 telhas.\n");
 printf("\nPara calcular a Telha Portuguesa: 1 MQ = 17 telhas.\n");
-printf("\nPara calcular a Telha Romana: Com base em uma telha romana com dimensoes (40cx21l) em centimetros em vista de eixo horizontal, e sabendo que calcular um metro quadrado de um telhado sera C x L entao 1 MQ = 16 telhas,");
+printf("\nPara calcular a Telha Romana: Tendo como base uma telha romana com dimensoes (40cx21l) em centimetros em vista de eixo horizontal, e sabendo que calcular um metro quadrado de um telhado sera C x L entao 1 MQ = 16 telhas,");
 printf(" assim um metro quadrado tem 16 telhas entao essa sera a medida padrao. 16 x tantos metros quadrados = a quantidade de telhas por metro quadrado.\n");
 printf("\n Teclar enter para retornar ao menu...\n ");
 getchar();
