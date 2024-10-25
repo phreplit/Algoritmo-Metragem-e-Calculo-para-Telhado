@@ -252,7 +252,7 @@ return;
 int menu_desenvolvedor(){
   system("clear");      // linux limpar tela
   system("tput reset"); // linux limpar texto
-  printf("\n Algoritmo: Metragem e Calculo para Telhado \n");
+  printf("\n Algoritmo: Metragem e Calculo para Telhado Residencial \n");
   printf("\n Author: PHNO ");
   printf("\n Data Release: 04/04/2024 ");
   printf("\n Versao Codigo: 1.0.1v");
